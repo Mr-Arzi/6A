@@ -1,0 +1,6 @@
+Prueba 1
+dof = 6
+p = 0.20000
+Resultado esperado = 0.55338
+Resultado obtenido = 0.55338
+num_seg final = 80

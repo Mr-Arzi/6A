@@ -19,5 +19,11 @@ pipeline {
                 }
             }
         }
+        stage('Deliver') {
+            steps {
+                sh 'java -cp target/classes App'
+                archiveArtifacts artifacts: 'resultados.txt, target/*.jar', fingerprint: true
+            }
+        }
     }
 }

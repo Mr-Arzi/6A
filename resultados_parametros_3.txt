@@ -1,0 +1,6 @@
+Prueba 3
+dof = 4
+p = 0.49500
+Resultado esperado = 4.60409
+Resultado obtenido = 4.60410
+num_seg final = 160
