@@ -21,7 +21,7 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                sh 'java -cp target/classes App'
+                sh 'java -cp target/classes App 6 0.2 15 0.45 4 0.495'
                 archiveArtifacts artifacts: 'resultados.txt, target/*.jar', fingerprint: true
             }
         }

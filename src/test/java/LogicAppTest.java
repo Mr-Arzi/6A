@@ -10,8 +10,7 @@ class LogicAppTest {
 
     @Test
     void mainGeneraElArchivoDeResultados() throws IOException {
-        App.main(new String[0]);
-
+        new Logic().logic1a();
         Path resultados = Path.of("resultados.txt");
         assertTrue(Files.exists(resultados), "resultados.txt deberia existir");
 
